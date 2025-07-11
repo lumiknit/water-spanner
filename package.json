@@ -1,0 +1,37 @@
+{
+	"name": "water-spanner",
+	"private": true,
+	"version": "0.1.0",
+	"type": "module",
+	"scripts": {
+		"compile": "tsc --noEmit",
+		"dev": "vite",
+		"build": "vite build --emptyOutDir",
+		"buildChrome": "TARGET=chrome vite build --emptyOutDir",
+		"buildFirefox": "TARGET=firefox vite build --emptyOutDir",
+		"format": "prettier --write .",
+		"we-test": "web-ext run",
+		"we-sign": "web-ext sign"
+	},
+	"devDependencies": {
+		"@types/webextension-polyfill": "^0.10.0",
+		"prettier": "^3.6.2",
+		"sass": "^1.89.2",
+		"typescript": "~5.6.3",
+		"vite": "^5.0.0",
+		"vite-bundle-visualizer": "^1.2.1",
+		"vite-plugin-solid": "^2.11.7",
+		"vite-plugin-web-extension": "^4.0.0",
+		"webextension-polyfill": "^0.10.0",
+		"zip-a-folder": "^3.1.9"
+	},
+	"dependencies": {
+		"@solid-primitives/media": "^2.3.3",
+		"bulma": "^1.0.4",
+		"codemirror": "^6.0.2",
+		"solid-icons": "^1.1.0",
+		"solid-js": "^1.9.7",
+		"solid-toast": "^0.5.0",
+		"thememirror": "^2.0.1"
+	}
+}

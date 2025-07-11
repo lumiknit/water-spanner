@@ -1,0 +1,46 @@
+@use '../common/bulma.scss';
+
+html {
+	width: 350px;
+	height: 500px;
+}
+
+.popup-container {
+	padding: 0.5rem;
+	font-size: 0.875rem;
+}
+
+.popup-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 1rem;
+	padding-bottom: 0.5rem;
+	border-bottom: 1px solid #dbdbdb;
+}
+
+.tabs-container {
+	.field {
+		margin-bottom: 0.5rem;
+	}
+}
+
+.result-section {
+	margin-top: 1rem;
+	padding-top: 1rem;
+	border-top: 1px solid #dbdbdb;
+}
+
+.element-info {
+	margin-top: 1rem;
+
+	.field {
+		margin-bottom: 0.75rem;
+	}
+}
+
+.js-page,
+.css-page,
+.inspector-page {
+	padding: 0.5rem 0;
+}
