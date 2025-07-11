@@ -2,6 +2,12 @@
 	"name": "water-spanner",
 	"private": true,
 	"version": "0.1.0",
+	"author": {
+		"email": "aasr4r4@gmail.com",
+		"name": "lumiknit",
+		"url": "https://github.com/lumiknit"
+	},
+	"license": "MPL-2.0",
 	"type": "module",
 	"scripts": {
 		"compile": "tsc --noEmit",
