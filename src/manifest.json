@@ -18,7 +18,7 @@
 		"{{chrome}}.service_worker": "src/background/index.ts",
 		"{{firefox}}.scripts": ["src/background/index.ts"]
 	},
-	"default_title": "Hello",
+	"default_title": "Water Spanner",
 	"options_page": "src/options/index.html",
 	"{{chrome}}.permissions": [
 		"activeTab",
@@ -35,5 +35,13 @@
 		"tabs",
 		"clipboardRead",
 		"clipboardWrite"
-	]
+	],
+	"browser_specific_settings": {
+		"{{firefox}}.gecko": {
+			"string_min_version": "138.0"
+		},
+		"{{firefox}}.gecko_android": {
+			"string_min_version": "138.0"
+		}
+	}
 }
